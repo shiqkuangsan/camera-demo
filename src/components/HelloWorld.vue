@@ -130,8 +130,7 @@ export default {
             // };
           })
           .catch((err) => {
-            console.log("错误");
-            console.log(err);
+            console.log("初始化错误",err);
           });
 
       if (this.imgSrc) {
@@ -244,8 +243,8 @@ export default {
     .circle {
       bottom: 1rem;
       background: #fff;
-      padding: 4px 10px;
-      //border-radius: 50%; /*transform: all 1s ;*/
+      padding: 5px 12px;
+      border-radius: 5px;
     }
 
     .circle:active {
